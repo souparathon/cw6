@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "844753981959",
+    "project_id": "mapcw6",
+    "storage_bucket": "mapcw6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844753981959:android:0e82fcf36b95ae2e3610a2",
+        "android_client_info": {
+          "package_name": "com.example.classwork6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxvssn553HJ0SEtJsNhCVuyfEp5scnt64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
