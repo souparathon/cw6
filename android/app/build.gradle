@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.classwork6"
-        minSdk = flutter.minSdkVersion
+        minSdkVersion 23
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -44,4 +44,12 @@ dependencies {
     // Add other Firebase dependencies as needed, e.g.,
     // implementation 'com.google.firebase:firebase-auth'
     // implementation 'com.google.firebase:firebase-firestore'
+}
+
+apply plugin: 'com.google.gms.google-services' // Keep this at the end
+
+tasks.whenTaskAdded { task ->
+    if (task.name == 'mapDebugSourceSetPaths') {
+        task.dependsOn 'processDebugGoogleServices'
+    }
 }
